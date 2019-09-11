@@ -1,2 +1,1 @@
-# mlc
-Machine Learning Collection
+# Machine Learning Collection
