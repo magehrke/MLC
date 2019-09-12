@@ -4,19 +4,19 @@
 - [ ] PILCO
 - [ ] eNAC
 - [ ] Value Iteration
-- [ ] REINFORCE
+- [ ] REINFORCE
 
 
 ### Nonparametric Methods:
 - [ ] Histograms
-- [ ] Kernel Density Estimators
-- [ ] Nearest Neighbours
+- [ ] Kernel Density Estimators
+- [ ] Nearest Neighbours
 
 ### Mixture Models and EM:
-- [ ] K-means Clustering
-- [ ] Mixtures of Gaussians
-- [ ] Alternative views of EM
+- [ ] K-means Clustering
+- [ ] Mixtures of Gaussians
+- [ ] Alternative views of EM
 
 
 ### Others / not categorized yet:
-- [ ] Bayesian Optimization
+- [ ] Bayesian Optimization
