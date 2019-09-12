@@ -19,7 +19,7 @@
 - [ ] Nearest Neighbours
 
 ### Mixture Models and EM:
-- [ ] K-means Clustering
+- [x] K-means Clustering
 - [ ] Mixtures of Gaussians
 - [ ] Alternative views of EM
 
