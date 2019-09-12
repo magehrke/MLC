@@ -1,11 +1,17 @@
 # Machine Learning Collection
 
 ### Reinforcement Learning:
+- [ ] Value Iteration
+- [ ] Policy Iteration
+- [ ] REINFORCE
+- [ ] DQN
+- [ ] DDPG
+- [ ] LSPI
+- [ ] REPS
+- [ ] PPO
+- [ ] TRPO
 - [ ] PILCO
 - [ ] eNAC
-- [ ] Value Iteration
-- [ ] REINFORCE
-
 
 ### Nonparametric Methods:
 - [ ] Histograms
