@@ -25,4 +25,5 @@
 
 
 ### Others / not categorized yet:
+- [ ] Gaussian Processes
 - [ ] Bayesian Optimization
