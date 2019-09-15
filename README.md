@@ -1,7 +1,7 @@
 # Machine Learning Collection
 
 ### Reinforcement Learning:
-- [ ] [Value Iteration](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
+- [ ][Value Iteration](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
 - [ ] [Policy Iteration](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
 - [ ] [REINFORCE](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
 - [ ] [DQN](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
