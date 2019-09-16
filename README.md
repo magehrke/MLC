@@ -1,9 +1,16 @@
 # Machine Learning Collection
 
-### Reinforcement Learning:
-- [ ] [Value Iteration](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
-- [ ] [Policy Iteration](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
-- [ ] [REINFORCE](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
+### Basic Reinforcement Learning:
+- [ ] Value Iteration
+- [ ] Policy Iteration
+- [ ] REINFORCE
+- [ ] Q Learning
+- [ ] SARSA
+
+All basic RL algorithms can be found in [Reinforcement Learning:
+An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf) by Sutton and Barto.
+
+### Advanced Reinforcement Learning:
 - [ ] [DQN](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
 - [ ] [DDPG](https://arxiv.org/abs/1509.02971)
 - [ ] [LSPI](http://www.jmlr.org/papers/volume4/lagoudakis03a/lagoudakis03a.pdf)
