@@ -1,11 +1,16 @@
 # Machine Learning Collection
 
 ### Basic Reinforcement Learning:
+Dynamic Programming:
 - [ ] Value Iteration
 - [ ] Policy Iteration
-- [ ] REINFORCE
-- [ ] Q Learning
+
+Temporal-Difference Learning:
+- [ ] Q-Learning
 - [ ] SARSA
+
+Policy Gradient Methods:
+- [ ] REINFORCE
 
 > Reference: [Reinforcement Learning:
 An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf) by Sutton and Barto.
