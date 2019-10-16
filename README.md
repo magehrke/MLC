@@ -2,12 +2,12 @@
 
 ### Basic Reinforcement Learning:
 Dynamic Programming:
-- [ ] Value Iteration
-- [ ] Policy Iteration
+- [x] Value Iteration
+- [x] Policy Iteration
 
 Temporal-Difference Learning:
-- [ ] Q-Learning
-- [ ] SARSA
+- [x] Q-Learning
+- [x] SARSA
 
 Policy Gradient Methods:
 - [ ] REINFORCE
