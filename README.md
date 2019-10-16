@@ -1,21 +1,9 @@
 # Machine Learning Collection
 
-### Basic Reinforcement Learning:
-Dynamic Programming:
-- [ ] Value Iteration
-- [ ] Policy Iteration
-
-Temporal-Difference Learning:
-- [ ] Q-Learning
-- [ ] SARSA
-
-Policy Gradient Methods:
-- [ ] REINFORCE
-
-> Reference: [Reinforcement Learning:
-An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf) by Sutton and Barto.
-
-### Advanced Reinforcement Learning:
+### Reinforcement Learning:
+- [ ] [Value Iteration](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
+- [ ] [Policy Iteration](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
+- [ ] [REINFORCE](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
 - [ ] [DQN](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
 - [ ] [DDPG](https://arxiv.org/abs/1509.02971)
 - [ ] [LSPI](http://www.jmlr.org/papers/volume4/lagoudakis03a/lagoudakis03a.pdf)
@@ -30,18 +18,12 @@ An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf) by Sutto
 - [ ] Kernel Density Estimators
 - [ ] Nearest Neighbours
 
-> Reference: [Pattern Recognition And Machine Learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf) by Bishop.
-
 ### Mixture Models and EM:
 - [x] K-means Clustering
 - [ ] Mixtures of Gaussians
 - [ ] Alternative views of EM
 
-> Reference: [Pattern Recognition And Machine Learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf) by Bishop.
 
 ### Others / not categorized yet:
 - [ ] Gaussian Processes
 - [ ] Bayesian Optimization
-- [ ] LQR
-- [ ] Mixed Integer Programming
-- [ ] OptNet
