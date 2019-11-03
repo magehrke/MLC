@@ -41,6 +41,7 @@ An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf) by Sutto
 
 ### Others / not categorized yet:
 - [ ] Gaussian Processes
+- [ ] Support Vector Machines
 - [ ] Bayesian Optimization
 - [ ] LQR
 - [ ] Mixed Integer Programming
