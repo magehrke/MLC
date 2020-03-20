@@ -4,11 +4,11 @@ from scipy.optimize import minimize
 
 # -------------------- Data generation --------------------
 # Creating two clouds of data from two different 2D gaussians
-a_mean = np.array([-1, -2])
+a_mean = np.random.uniform(low=-4.0, high=4.0, size=(2,))
 a_cov = np.eye(N=2, M=2)*2
 A = np.random.multivariate_normal(mean=a_mean, cov=a_cov, size=40)
 
-b_mean = np.array([0, 3])
+b_mean = np.random.uniform(low=-4.0, high=4.0, size=(2,))
 B = np.random.multivariate_normal(mean=b_mean, cov=a_cov, size=40)
 
 all_data = np.concatenate((A, B), axis=0)
@@ -21,11 +21,6 @@ b0 = np.array([1])
 p0 = np.array([w0[0], w0[1], b0])
 
 
-# Affine function for hyperplane
-def aff(x, w, b):
-    return w.T@x - b
-
-
 def y(data_point):
     if data_point in A:
         return 1
@@ -35,7 +30,13 @@ def y(data_point):
         print("Unknown data.")
 
 
+# Affine function for hyperplane
+def aff(x, w, b):
+    return w.T@x - b
+
+
 # Loss function
+# TODO: Add regularisation term
 def empirical_hinge_loss(parameters):
     w = parameters[:2]
     b = parameters[2]
@@ -52,11 +53,13 @@ b_star = res[2]
 
 # -------------------- Plots --------------------
 # Plotting the data
-plt.figure()
+plt.figure(figsize=(12, 6))
 plt.scatter(x=A[:, 0], y=A[:, 1], label="A")
 plt.scatter(x=B[:, 0], y=B[:, 1], label="B")
-# TODO: Plot SVM decision boundary
-# x = np.arange(-5, 5, 0.1).reshape(-1, 1)
-# plt.contour(x, x, np.array([aff(z, w_star, b_star) for z in np.concatenate((x, x), axis=0)]), levels=[0])
+# Plot SVM decision boundary
+xs = np.linspace(-5, 5)
+a = - w_star[0] / w_star[1]  # ??
+ys = a*xs - b_star/w_star[1]
+plt.plot(xs, ys, color='black', label='decision boundary')
 plt.legend()
 plt.show()
